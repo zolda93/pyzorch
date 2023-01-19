@@ -84,7 +84,7 @@ print(b.grad)
 add: `+`, sub: `-`, mul: `*`, div: `/`, `sum`, `mean`, `var`      
 
 #### ufunc  
-`exp`, `log`, `sin`, `cos`, `tanh`, `sigmoid`, power: `x**2`, exponential: `2**x`,
+`exp`, power: `x**2`, exponential: `2**x`,
 
 #### tensor  
 matmul: `@`, elementwise (Hadamard) mul: `*`, transpose: `.T` or `transpose(x, axes)`, concatenate: `concat`, view: `view`, slicing: `x[...,1:10:2,:]`, `flatten`, etc.       
