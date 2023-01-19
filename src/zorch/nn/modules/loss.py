@@ -3,7 +3,7 @@ from .. import functional as F
 
 class L1Loss(Module):
     def __init__(self,reduction='mean'):
-        super()._init__()
+        super().__init__()
         self.reduction = reduction
     
     def forward(self,x,target):
