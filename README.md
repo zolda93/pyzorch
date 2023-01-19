@@ -111,13 +111,12 @@ adapted from pytorch code.
 * Adamw: `AdamW`  
 * Adadelta:`Adadelta`
 
-### data
-datasets for handy testing
+### zorch.utils.data
 
  * Dataset : `Dataset`
  * Dataloader : `DataLoader`
 
-### vision
+### zorchvision
 
 * transforms : `Compose`,`ToTensor`,`Resize`,`Normalize`,`CenterCrop`,`RandomHorizontalFlip`,`RandomVerticalFlip`
 * datasets   : `MNIST`,`FashionMNIST`,`Cifar10`,`Cifar100`,`STL10`
