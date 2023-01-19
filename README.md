@@ -132,4 +132,10 @@ adapted from pytorch code.
 
 [ToeffiPy](https://github.com/ChristophReich1996/ToeffiPy/tree/master/autograd)
 
+[fft_conv](https://github.com/fkodom/fft-conv-pytorch)
+
+[Understanding the FFT Algorithm](https://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+
+[deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch-3)
+
 
