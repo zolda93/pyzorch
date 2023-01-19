@@ -1,5 +1,6 @@
 # pyzorch
-a deep learning framework style pytorch,implemented entirely in numpy, with GPU acceleration from cupy.
+a deep learning framework style pytorch,implemented entirely in numpy, with GPU acceleration from cupy.a first attempt was made using c++/cuda [DL](https://github.com/zolda93/DL).
+
 the goal was to get a deep undertanding of how framework like pytorch work under the hood
 
 ## Quick start
