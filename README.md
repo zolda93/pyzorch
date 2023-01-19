@@ -104,10 +104,32 @@ matmul: `@`, elementwise (Hadamard) mul: `*`, transpose: `.T` or `transpose(x, a
  
 
 #### optim    
-adapted from pytorch code, since it's already written in python.
+adapted from pytorch code.
 * optimizer: `Optimizer`   
 * sgd: `SGD`
 * Adam: `Adam`  
 * Adamw: `AdamW`  
 * Adadelta:`Adadelta`
+
+### data
+datasets for handy testing
+
+ * Dataset : `Dataset`
+ * Dataloader : `DataLoader`
+
+### vision
+
+* transforms : `Compose`,`ToTensor`,`Resize`,`Normalize`,`CenterCrop`,`RandomHorizontalFlip`,`RandomVerticalFlip`
+* datasets   : `MNIST`,`FashionMNIST`,`Cifar10`,`Cifar100`,`STL10`
+
+### Resourses
+ 
+[chainer](https://github.com/chainer/chainer)
+
+[pytorch](https://github.com/pytorch/pytorch)
+
+[tinygrad](https://github.com/geohot/tinygrad)
+
+[ToeffiPy](https://github.com/ChristophReich1996/ToeffiPy/tree/master/autograd)
+
 
