@@ -202,7 +202,7 @@ class Tensor:
         return self.binaryop(bp.sub,self,other)
 
     def __rsub__(self,other):
-        other = Tensor._assert_tesor(other)
+        other = Tensor._assert_tensor(other)
         return self.binaryop(bp.sub,other,self)
 
     def __isub__(self,other):
